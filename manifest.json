@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Levelish",
+    "description": "Learn the CEFR English level of YouTube videos and websites easily.",
+    "version": "1.2",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "content_security_policy": "script-src 'self' https://apis.google.com; object-src 'self'",
+    "permissions": [
+        "tabs"
+    ]
+}
